@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=Seymour+One&display=swap');
+
+body{
+    background-image: url(../Assets/pexels-lumn-316466.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.calculator{
+    position: relative;
+    top: 20px;
+}
+.calculator h2{
+    font-weight: 700;
+    font-family: 'Seymour One', sans-serif;
+}
+.calculator .mainCalculator{
+    position: relative;
+    top: 50px;
+    margin: auto;
+    border:4px solid lightgrey;
+    border-radius: 20px;
+    width: 300px;
+    height: 370px;
+    background-color: white;
+
+}
+.calculator .mainCalculator .inputOutput{
+    border-radius: 5%  5% 1% 1%;
+    width: 95%;
+    height:90px;
+      margin: auto;
+      padding: 2%;
+      border: 2px solid lightgrey;
+      position: relative;
+      top: 30px;
+      background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.calculator .mainCalculator .inputOutput input{
+    border: none;
+    background: none;
+    font-weight: 700;
+}
+.calculator .mainCalculator .inputOutput #input{
+    position: relative;
+    bottom: 10px;
+    border-top: none;
+
+}
+.calculator .mainCalculator .inputOutput #result{
+    text-align: center;
+}
+
+.calculator .mainCalculator .bttnss{
+    position: relative;
+    top: 60px;
+}
+.calculator .mainCalculator .bttnss button{
+    width: 60px;
+    margin: 3px;
+    border: 0.0975rem solid lightgrey;
+    /* gap: 10px !important; */
+    /* border: 2px solid; */
+}
+
+
+.calculator .inputOutput{
+    display: flex;
+    flex-direction: column;
+}
