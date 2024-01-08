@@ -16,7 +16,7 @@ const Calculator = () => {
       }
     } else if (value === 'C') {
       setInput('');
-      setResult('');
+      setResult('')
     } else {
       setInput((prevInput) => prevInput + value);
     }
